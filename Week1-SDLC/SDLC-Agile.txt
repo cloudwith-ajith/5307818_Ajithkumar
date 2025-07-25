@@ -1,0 +1,254 @@
+✅ 1. SDLC (Software Development Life Cycle)
+What is SDLC?
+Definition: A process used by software industry to design, develop, and test high-quality software systematically.
+
+Why used?
+
+Ensures software meets customer expectations.
+
+Reduces cost and time.
+
+Provides a structured approach.
+
+Where used?
+
+In any software development project for planning, building, and maintaining systems.
+
+How to implement?
+
+Follow its phases sequentially or iteratively based on the chosen SDLC model.
+
+SDLC Phases
+Phase	Description
+Requirement Gathering	Identify user needs.
+🔹 Functional Requirements: Specific behaviours (e.g. login feature).
+🔹 Non-Functional Requirements: Performance, security, usability.
+Design	Blueprint of software.
+🔹 Structural UML Diagrams: Class, Component, Deployment.
+🔹 Behavioural UML Diagrams: Sequence, Activity, Use-case.
+Development	Actual coding using design documents.
+Testing	Verify and validate software to identify defects.
+Deployment	Release software into production environment.
+Maintenance	Bug fixes, upgrades, enhancements post-deployment.
+
+SDLC Models
+Model	Use-case	Advantages	Limitations
+Waterfall	Small projects with clear requirements.	Simple, easy to manage.	Inflexible to changes, late testing.
+V-Model	Safety-critical projects (e.g. aerospace).	Verification and validation in parallel.	Same rigidity as waterfall.
+Spiral	Large, high-risk projects.	Risk analysis, flexibility.	Complex, costly.
+Iterative	Requirements evolve over time.	Early working software.	Needs strong design foundation.
+Agile	Projects with frequently changing requirements.	Adaptive, customer involvement, fast delivery.	Requires active user involvement and team discipline.
+
+Documentation
+SRS: Software Requirements Specification – detailed requirements.
+
+Design Documents: HLD (High-Level Design), LLD (Low-Level Design).
+
+Test Plans: Strategy, scope, approach, resources for testing.
+
+User Manuals: Guides for end-users to operate software.
+
+---------------------------------------------------------------------------------------------------------
+
+✅ 2. Software Testing Methodology
+Testing Objective & Principles
+Objective: Ensure software meets user requirements, is defect-free, reliable, and of high quality.
+
+Principles:
+
+Testing shows presence of defects.
+
+Exhaustive testing is impossible.
+
+Early testing saves cost.
+
+Defect clustering.
+
+Pesticide paradox (update tests regularly).
+
+Testing is context dependent.
+
+Absence of errors fallacy (fixing wrong requirements still fails).
+
+STLC (Software Testing Life Cycle) Phases
+Requirement Analysis
+
+Test Planning
+
+Test Case Design
+
+Test Environment Setup
+
+Test Execution
+
+Test Closure
+
+Testing Process Components
+Component	Description
+Test Scenario	High-level statement of what to test.
+Test Suite	Collection of test cases.
+Test Plan	Document outlining test strategy, scope, schedule.
+Test Cases	Step-wise instructions to verify specific functionality.
+
+Testing Levels
+Unit Testing – Individual components (by developers).
+
+Integration Testing – Combination of units/modules.
+
+System Testing – Entire system as a whole.
+
+Acceptance Testing – Validation by clients/end users.
+
+Testing Methodologies
+Type	Description
+Functional Testing	Validates software against functional requirements (e.g. login validation).
+Non-Functional Testing	Checks performance, security, usability, etc.
+
+Testing Techniques
+Technique	Description
+Black-box Testing	No knowledge of internal code; tests input-output.
+White-box Testing	Tests internal logic and code.
+Grey-box Testing	Partial knowledge of internal structure with external testing.
+
+Test Lifecycle
+Planning → Design → Execution → Defect Reporting → Closure
+
+Automation Tools
+Tool	Purpose
+Selenium	Web application automation.
+JUnit	Java unit testing framework.
+Postman	API testing tool.
+LoadRunner	Performance testing.
+
+---------------------------------------------------------------------------------------------------------------------
+
+✅3. Agile Methodology
+Agile Principles
+Deliver working software frequently.
+
+Welcome changing requirements.
+
+Close daily collaboration.
+
+Motivated individuals.
+
+Face-to-face conversation.
+
+Working software is the measure of progress.
+
+Sustainable development.
+
+Continuous attention to technical excellence.
+
+Simplicity.
+
+Self-organizing teams.
+
+Regular reflection and adaptation.
+
+Traditional vs Agile Approach
+Traditional (Waterfall)	Agile
+Sequential	Iterative and incremental
+Fixed requirements	Flexible and adaptive
+Late testing	Continuous testing
+
+Phases in Agile Model
+Requirement gathering (user stories).
+
+Planning (sprints).
+
+Design & development (iterative).
+
+Testing (continuous).
+
+Deployment (at sprint end).
+
+Customer Collaboration & Iterative Delivery
+Regular feedback.
+
+Adapts quickly to changes.
+
+Comparison Models
+Comparison	Difference
+V-Model vs Agile	V-Model rigid, Agile flexible.
+Waterfall vs Agile	Waterfall sequential, Agile iterative.
+Incremental vs Iterative	Incremental adds modules, Iterative refines features.
+
+12 Principles & 4 Pillars
+4 Pillars (Values):
+
+Individuals and interactions over processes and tools.
+
+Working software over comprehensive documentation.
+
+Customer collaboration over contract negotiation.
+
+Responding to change over following a plan.
+
+Agile Frameworks
+Framework	Description
+Scrum	Iterative development with roles/events/artifacts.
+Kanban	Visual workflow management with continuous delivery.
+XP (Extreme Programming)	High engineering focus, pair programming, test-driven development.
+SAFe (Scaled Agile Framework)	Scaling Agile for large enterprises.
+
+Scrum Components
+Category	Elements
+Roles	Product Owner, Scrum Master, Development Team.
+Events	Sprint Planning, Daily Stand-ups, Sprint Review, Retrospective.
+Artifacts	Product Backlog, Sprint Backlog, Burndown Charts.
+
+---------------------------------------------------------------------------------------
+
+✅ 4. CI/CD (Continuous Integration / Continuous Deployment)
+CI/CD Concepts
+Concept	Description
+Continuous Integration (CI)	Developers integrate code frequently; automated builds/tests.
+Continuous Delivery (CD)	Code is always ready for deployment.
+Continuous Deployment (CD)	Every change is automatically deployed to production.
+
+Traditional vs CI/CD
+Traditional	CI/CD
+Manual, infrequent integration and deployment	Automated, frequent, faster feedback
+
+CI/CD Pipeline Stages
+Code Commit – Developers push code to repo.
+
+Build – Code compilation and build.
+
+Test – Automated unit and integration tests.
+
+Deploy – Deployment to environment.
+
+Monitor – Monitoring performance and errors.
+
+CI/CD Tools
+Tool	Use
+Jenkins	Popular CI/CD automation server.
+GitHub Actions	CI/CD within GitHub repos.
+Azure DevOps	End-to-end DevOps platform.
+GitLab CI/CD	Integrated CI/CD in GitLab.
+
+----------------------------------------------------------------------------------------------------
+
+✅ 5. Code Quality
+Unit Testing & Code Coverage
+Unit Testing: Testing smallest pieces (functions, classes).
+
+Code Coverage: Percentage of code tested by unit tests (higher is better).
+
+Static Code Analysis
+Definition: Analysing code without executing it to detect potential errors, bugs, vulnerabilities, and maintainability issues.
+
+Tools:
+
+SonarQube: Code quality analysis and continuous inspection tool.
+
+Linting Tools: ESLint (JavaScript), Pylint (Python), Checkstyle (Java).
+
+Key Benefits
+Improved code maintainability.
+
+Early detection of bugs.
+
+Better security and performance adherence.
