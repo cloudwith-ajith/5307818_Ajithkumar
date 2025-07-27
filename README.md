@@ -1,6 +1,8 @@
 # 5307818_Ajithkumar
 
-StepIn
+# STEP-IN Training Program at LTTS
 
-Week-1 SDLC and Agile 
-Week-2 Git and Bash 
+Welcome to my repository showcasing the work I’ve done as part of the **STEP-IN Training Program** at **L&T Technology Services (LTTS)**.
+
+This program is designed to equip freshers with essential technical and soft skills through structured training, hands-on projects, and professional development activities.
+
