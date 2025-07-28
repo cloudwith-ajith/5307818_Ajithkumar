@@ -1,1 +1,193 @@
-b
+✅ 1. Introduction to Version Control Systems (VCS) / Source Code Management (SCM)
+a. Centralized Version Control Systems (CVCS)
+All developers connect to one central server.
+
+Example: Subversion (SVN)
+
+❌ If the server is down, no one can commit or retrieve code.
+
+b. Distributed Version Control Systems (DVCS)
+Every developer has a full copy of the repository.
+
+Work can be done offline.
+
+Example: Git, Mercurial
+
+c. Git and Its Features
+Distributed: Full copy of code locally
+
+Fast, secure, and scalable
+
+Supports branching, merging, rebasing
+
+Can easily track changes, revert code, collaborate
+-----------------------------------------------------------------------------------
+✅ 2. Basic Workflow of Git
+a. Local Repository
+Exists on your machine
+
+You can commit and make changes without internet
+
+b. Remote Repository
+Stored on platforms like GitHub, GitLab, Bitbucket
+
+Used for collaboration
+
+c. Index or Staging Area
+Intermediate place between working directory and local repo
+
+You add changes here using git add
+
+d. Working Directory
+Your local project folder with files you are editing
+
+e. Concepts
+Origin: Default name for remote repo
+
+Branch: Independent line of development
+
+Master/Main: Default production branch
+
+HEAD: Pointer to the latest commit you’re working on
+-----------------------------------------------------------------------------
+✅ 3. Git - Basic Commands vs GUI Usage
+a. Working with Local Repositories
+I. Adding/removing changes to staging
+git add filename
+
+git reset filename (to unstage)
+
+II. Adding changes to Local Repo
+git commit -m "message"
+
+III. Add changelog messages
+Done during git commit
+
+IV. Remove changes from Local Repo
+git reset (soft/mixed/hard)
+
+git checkout (to discard file changes)
+
+V. Append more changes
+git commit --amend (to modify the last commit)
+
+VI. View history and change logs
+git log
+
+git diff
+
+git status
+
+b. Working with Remote Repositories – GitLab
+I. Clone remote repository
+git clone <repo-url>
+
+II. Push local changes
+git push origin branch_name
+
+III. Undo remote changes
+git revert <commit-hash> (safe)
+
+git reset (forceful and dangerous)
+
+IV. .gitignore File
+Prevents tracking of unnecessary files (e.g., .env, node_modules)
+
+Example entry:
+
+bash
+Copy
+Edit
+*.log
+/build
+--------------------------------------------------------------------------
+✅ 4. Git – Branching Model
+a. Branching
+I. Create & switch branch
+git branch feature-xyz
+
+git checkout feature-xyz
+
+Or directly: git checkout -b feature-xyz
+
+II. Push branch to remote
+git push origin feature-xyz
+
+III. Delete branches
+Local: git branch -d feature-xyz
+
+Remote: git push origin --delete feature-xyz
+
+IV. View differences
+git diff branch1..branch2
+
+V. Update local branches
+git fetch
+
+git pull origin branch_name
+
+b. Merging
+I. Merge branches
+git checkout main
+
+git merge feature-xyz
+
+II. Merge conflicts
+Happens when two branches modify the same lines
+
+Git marks conflict with <<<<<<, ======, >>>>>>
+
+Resolve manually, then:
+
+bash
+Copy
+Edit
+git add .
+git commit
+III. Rebase
+git rebase branch_name – moves branch commits on top of another branch
+
+Makes history linear
+
+c. Tags
+I. Tagging
+git tag v1.0
+
+II. Push tag
+git push origin v1.0
+
+III. Delete tag
+Local: git tag -d v1.0
+
+Remote: git push origin --delete tag v1.0
+
+d. Patches
+I. Generate patch
+git format-patch -1 <commit-hash>
+
+II. Apply patch
+git apply patchfile.patch
+
+e. Pull Requests (PRs) – Synchronization
+I. What is a Pull Request?
+A way to propose code changes from one branch to another
+
+Common in platforms like GitHub or GitLab
+
+II. Generating Pull Requests
+Push your feature branch to remote
+
+Go to platform (e.g., GitHub)
+
+Click “New Pull Request”, choose base and compare branches
+
+Add description, reviewers, etc.
+
+III. Reviewing Changes
+Other developers review the diff
+
+Add comments, suggestions
+
+Request changes or approve
+
+Once approved, PR is merged
