@@ -8,7 +8,7 @@ This program is designed to equip freshers with essential technical and soft ski
 
 ## 🎓 Agile Certification - Great Learning
 
-![Agile Certificate](Screenshot 2025-07-21 204853.png)
+![Agile Certificate](5307818_Ajithkumar/Week1-SDLC/certificate/Screenshot 2025-07-21 204853.png)
 
 
 
