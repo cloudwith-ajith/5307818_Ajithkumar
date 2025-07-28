@@ -6,6 +6,12 @@ Welcome to my repository showcasing the work I’ve done as part of the **STEP-I
 
 This program is designed to equip freshers with essential technical and soft skills through structured training, hands-on projects, and professional development activities.
 
+## 🎓 Agile Certification - Great Learning
+
+![Agile Certificate](certificates/agile_certificate.png)
+
+
+
 ## 💬 Feedback & Contact
 
 I'm open to feedback or suggestions to improve my work. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cloudwithajith) or drop me a message!
