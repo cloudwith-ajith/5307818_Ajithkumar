@@ -19,7 +19,7 @@ This program is designed to equip freshers with essential technical and soft ski
 
 ## Git certificate
 
-![Git certificate](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week2-GIT/certificate/GITCOURSE1.pdf)
+![Git certificate]([https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week2-GIT/certificate/GITCOURSE1.pdf](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week2-GIT/certificate/GITCOURSE1_page-0001.jpg))
 
 
 ## 💬 Feedback & Contact
