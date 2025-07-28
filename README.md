@@ -8,14 +8,9 @@ This program is designed to equip freshers with essential technical and soft ski
 
 ## Agile certificate
 
-<<<<<<< HEAD
 
 ![Agile Certificate](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week1-SDLC/certificate/Screenshot%202025-07-21%20204853.png)
 
-<img src="https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week1-SDLC/certificate/Screenshot%202025-07-21%20204853.png" alt="image">
-=======
-![Agile Certificate](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week1-SDLC/certificate/Screenshot%202025-07-21%20204853.png)
->>>>>>> ba4299977d22f2d8edb99984b67a8ed15fa31a08
 
 ## Git certificate
 
