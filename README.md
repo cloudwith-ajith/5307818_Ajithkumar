@@ -1,6 +1,6 @@
 # 5307818_Ajithkumar
 
-# STEP-IN Training Program 
+# STEP-IN Training Program
 
 Welcome to my repository showcasing the work I’ve done as part of the **STEP-IN Training Program** 
 
