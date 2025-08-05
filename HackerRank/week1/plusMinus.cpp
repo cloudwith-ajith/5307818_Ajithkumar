@@ -29,10 +29,11 @@ void plusMinus(vector<int> arr) {
         
     }
     
-    
+    cout<<fixed<<setprecision(6);
     cout<<(double)pos/n<<endl;
     cout<<(double)neg/n<<endl;
     cout<<(double)zero/n<<endl;
+
 
 }
 //-----------------------------------
@@ -62,7 +63,6 @@ int main()
     return 0;
 }
 
-<<<<<<< HEAD
 string ltrim(const string &str) {
     string s(str);
 
