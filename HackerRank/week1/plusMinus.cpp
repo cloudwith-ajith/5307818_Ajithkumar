@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
- * Complete the 'plusMinus' function below.
+ /* Complete the 'plusMinus' function below.
  *
  * The function accepts INTEGER_ARRAY arr as parameter.
  * vector<int> is used to interact with the arr 
