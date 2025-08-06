@@ -17,6 +17,10 @@ This program is designed to equip freshers with essential technical and soft ski
 ![Git certificate](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week2-GIT/certificate/GITCOURSE1_page-0001.jpg)
 
 
+## C programming certificate
+
+![C programming certificate](https://github.com/cloudwith-ajith/5307818_Ajithkumar/blob/main/Week4-Cprogram/Certificate/e3352df0-9b5e-45c1-92f9-837bf22d5d50.png)
+
 ## 💬 Feedback & Contact
 
 I'm open to feedback or suggestions to improve my work. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cloudwithajith) or drop me a message!
