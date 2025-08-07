@@ -17,7 +17,5 @@ string timeConversion(string s) {
     results << setw(2) << setfill('0') << hour << s.substr(2, 6); 
 
     return results.str();
-    
-
 
 }
