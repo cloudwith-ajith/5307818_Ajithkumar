@@ -9,7 +9,7 @@ string timeConversion(string s) {
         if (hour == 12)
             hour = 0; 
     } else { // PM
-        if (hour != 12)
+        if (hour != 12)    
             hour += 12; 
     }
 
