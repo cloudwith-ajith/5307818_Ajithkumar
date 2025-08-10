@@ -20,7 +20,7 @@ vector<string> split(const string &);
 void plusMinus(vector<int> arr) {
     int n  = arr.size();
     
-    int zero=0, pos=0, neg=0;
+    int zero=0, pos=0, neg=0;  
     
     for(int number : arr){
         if(number>0)pos++;
