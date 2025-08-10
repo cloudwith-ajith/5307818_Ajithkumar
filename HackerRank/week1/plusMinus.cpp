@@ -12,7 +12,7 @@ vector<string> split(const string &);
  * The function accepts INTEGER_ARRAY arr as parameter.
  * vector<int> is used to interact with the arr 
  * arr.size ---> to give total element in the arr
- * 
+ *    
  */
  
  
