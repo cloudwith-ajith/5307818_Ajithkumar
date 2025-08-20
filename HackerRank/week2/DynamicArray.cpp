@@ -1,11 +1,11 @@
 int* dynamicArray(int n, int queries_rows, int queries_columns, int** queries, int* result_count) {
-    // Array of dynamic arrays (sequences)
+    
     int **seqList = (int**)malloc(n * sizeof(int*));
-    int *seqSizes = (int*)calloc(n, sizeof(int));   // size of each sequence
+    int *seqSizes = (int*)calloc(n, sizeof(int));   
     int *seqCapacity = (int*)malloc(n * sizeof(int));
     
     for (int i = 0; i < n; i++) {
-        seqList[i] = (int*)malloc(2 * sizeof(int)); // start with small capacity
+        seqList[i] = (int*)malloc(2 * sizeof(int)); 
         seqCapacity[i] = 2;
         seqSizes[i] = 0;
     }
@@ -19,10 +19,10 @@ int* dynamicArray(int n, int queries_rows, int queries_columns, int** queries, i
         int x = queries[i][1];
         int y = queries[i][2];
 
-        int idx = (x ^ lastAnswer) % n;  // select sequence index
+        int idx = (x ^ lastAnswer) % n;  
 
         if (type == 1) {
-            // ensure capacity
+            
             if (seqSizes[idx] == seqCapacity[idx]) {
                 seqCapacity[idx] *= 2;
                 seqList[idx] = (int*)realloc(seqList[idx], seqCapacity[idx] * sizeof(int));
