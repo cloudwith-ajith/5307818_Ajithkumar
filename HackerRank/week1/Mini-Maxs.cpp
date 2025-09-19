@@ -10,7 +10,7 @@ void MiniMaxSum(vector<int>arr){
         total=total+arr[i];
     }
 
-    for (int i=1;i<arr.size();i++){
+    for (int i=1;i<arr.size();i++){  
         if(arr[i]>Mini){
             Mini=arr[i];
         }
